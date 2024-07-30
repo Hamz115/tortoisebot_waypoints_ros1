@@ -12,6 +12,6 @@ cd ~/simulation_ws && catkin_make && source devel/setup.bash <br>
 rostest tortoisebot_waypoints waypoints_test.test --reuse-master <br>
 
 For SUCCESS: <br>
-rostest tortoisebot_waypoints waypoints_test.test --reuse-master x:=0.5 y:=0.5 tolerance:=0.1 <br>
+rostest tortoisebot_waypoints waypoints_test.test --reuse-master x:=0.5 y:=0.5 tolerance:=0.2 <br>
 For FAILURE: <br>
-rostest tortoisebot_waypoints waypoints_test.test --reuse-master x:=1.0 y:=0.5 tolerance:=0.1 <br>
+rostest tortoisebot_waypoints waypoints_test.test --reuse-master x:=1.0 y:=0.5 tolerance:=0.2 <br>
